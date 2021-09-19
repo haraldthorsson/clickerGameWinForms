@@ -20,6 +20,8 @@ namespace ClickerGame
         int clickUpgrade = 1;
         float price = 10;
 
+        float lastTickMoney = 0;
+
         int upgradeOne, upgradeTwo, upgradeThree , upgradeFour;
 
         public Form1()
@@ -94,7 +96,13 @@ namespace ClickerGame
 
         private void tmr_Tick(object sender, EventArgs e)
         {
+            
+
             float deltaTime = 0.01f;
+
+            lastTickMoney = money;
+
+            
 
             money += 0.1f * deltaTime * upgradeOne;
 
@@ -106,6 +114,8 @@ namespace ClickerGame
 
 
             lbl_money.Text = "$" + money.ToString("F2");
+
+            lbl_perSec.Text = ((money - lastTickMoney) / deltaTime).ToString("F2");
         }
 
         private void lbl_money_Click(object sender, EventArgs e)

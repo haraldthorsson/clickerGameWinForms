@@ -41,6 +41,7 @@ namespace ClickerGame
             this.lbl_four = new System.Windows.Forms.Label();
             this.btn_clickUpgrade = new System.Windows.Forms.Button();
             this.lbl_clickMultiplyer = new System.Windows.Forms.Label();
+            this.lbl_perSec = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -163,11 +164,22 @@ namespace ClickerGame
             this.lbl_clickMultiplyer.TabIndex = 5;
             this.lbl_clickMultiplyer.Text = "click = $1";
             // 
+            // lbl_perSec
+            // 
+            this.lbl_perSec.AutoSize = true;
+            this.lbl_perSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_perSec.Location = new System.Drawing.Point(365, 296);
+            this.lbl_perSec.Name = "lbl_perSec";
+            this.lbl_perSec.Size = new System.Drawing.Size(61, 25);
+            this.lbl_perSec.TabIndex = 6;
+            this.lbl_perSec.Text = "$10/s";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_perSec);
             this.Controls.Add(this.lbl_clickMultiplyer);
             this.Controls.Add(this.btn_clickUpgrade);
             this.Controls.Add(this.lbl_four);
@@ -201,6 +213,7 @@ namespace ClickerGame
         private System.Windows.Forms.Label lbl_four;
         private System.Windows.Forms.Button btn_clickUpgrade;
         private System.Windows.Forms.Label lbl_clickMultiplyer;
+        private System.Windows.Forms.Label lbl_perSec;
     }
 }
 
