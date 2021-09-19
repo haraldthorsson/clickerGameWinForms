@@ -40,7 +40,7 @@ namespace ClickerGame
             this.lbl_three = new System.Windows.Forms.Label();
             this.lbl_four = new System.Windows.Forms.Label();
             this.btn_clickUpgrade = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_clickMultiplyer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -154,21 +154,21 @@ namespace ClickerGame
             this.btn_clickUpgrade.UseVisualStyleBackColor = true;
             this.btn_clickUpgrade.Click += new System.EventHandler(this.button6_Click);
             // 
-            // label1
+            // lbl_clickMultiplyer
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(205, 393);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "click = $1";
+            this.lbl_clickMultiplyer.AutoSize = true;
+            this.lbl_clickMultiplyer.Location = new System.Drawing.Point(205, 393);
+            this.lbl_clickMultiplyer.Name = "lbl_clickMultiplyer";
+            this.lbl_clickMultiplyer.Size = new System.Drawing.Size(53, 13);
+            this.lbl_clickMultiplyer.TabIndex = 5;
+            this.lbl_clickMultiplyer.Text = "click = $1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_clickMultiplyer);
             this.Controls.Add(this.btn_clickUpgrade);
             this.Controls.Add(this.lbl_four);
             this.Controls.Add(this.lbl_three);
@@ -200,7 +200,7 @@ namespace ClickerGame
         private System.Windows.Forms.Label lbl_three;
         private System.Windows.Forms.Label lbl_four;
         private System.Windows.Forms.Button btn_clickUpgrade;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_clickMultiplyer;
     }
 }
 

@@ -17,6 +17,8 @@ namespace ClickerGame
 
         float clickMoney = 1;
         float upgradePercent = 1.05f;
+        int clickUpgrade = 1;
+        float price = 10;
 
         int upgradeOne, upgradeTwo, upgradeThree , upgradeFour;
 
@@ -27,9 +29,7 @@ namespace ClickerGame
             Timer tmr = new Timer();
             tmr.Interval = 10;
             tmr.Tick += tmr_Tick;
-            tmr.Start();
-
-            
+            tmr.Start();        
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -74,14 +74,22 @@ namespace ClickerGame
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if()
+            if(money >= price)
+            {
+                money -= price;
+                price *= (upgradePercent * 2) - 1;
+
+                btn_clickUpgrade.Text = "Upgrade click $" + price.ToString("F1");
+
+                clickMoney *= upgradePercent;
+                lbl_clickMultiplyer.Text = clickMoney.ToString("F1");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             money += clickMoney;
-            
-            
+            lbl_clickMultiplyer.Text = clickMoney.ToString("F1");
         }
 
         private void tmr_Tick(object sender, EventArgs e)
@@ -95,11 +103,6 @@ namespace ClickerGame
             money += 5 * deltaTime * upgradeThree;
 
             money += 25 * deltaTime * upgradeFour;
-
-
-
-           
-
 
 
             lbl_money.Text = "$" + money.ToString("F2");
