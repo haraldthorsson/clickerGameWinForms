@@ -88,6 +88,11 @@ namespace ClickerGame
             }
         }
 
+        private void lbl_perSec_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             money += clickMoney;
@@ -115,7 +120,7 @@ namespace ClickerGame
 
             lbl_money.Text = "$" + money.ToString("F2");
 
-            lbl_perSec.Text = ((money - lastTickMoney) / deltaTime).ToString("F2");
+            lbl_perSec.Text = "$" + ((money - lastTickMoney) / deltaTime).ToString("F2") + "/s";
         }
 
         private void lbl_money_Click(object sender, EventArgs e)

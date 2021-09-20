@@ -46,32 +46,38 @@ namespace ClickerGame
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(334, 365);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 73);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "$$$$";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbl_money
             // 
+            this.lbl_money.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_money.AutoSize = true;
             this.lbl_money.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl_money.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.lbl_money.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_money.Location = new System.Drawing.Point(343, 321);
+            this.lbl_money.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.lbl_money.Font = new System.Drawing.Font("Arial", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_money.ForeColor = System.Drawing.Color.SlateGray;
+            this.lbl_money.Location = new System.Drawing.Point(375, 321);
             this.lbl_money.Name = "lbl_money";
-            this.lbl_money.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_money.Size = new System.Drawing.Size(57, 41);
+            this.lbl_money.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lbl_money.Size = new System.Drawing.Size(55, 40);
             this.lbl_money.TabIndex = 1;
-            this.lbl_money.Text = "$0";
+            this.lbl_money.Text = "0$";
             this.lbl_money.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_money.UseWaitCursor = true;
             this.lbl_money.Click += new System.EventHandler(this.lbl_money_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 75);
+            this.button2.Location = new System.Drawing.Point(12, 104);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 23);
             this.button2.TabIndex = 2;
@@ -81,7 +87,7 @@ namespace ClickerGame
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 104);
+            this.button3.Location = new System.Drawing.Point(12, 133);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(159, 23);
             this.button3.TabIndex = 2;
@@ -91,7 +97,7 @@ namespace ClickerGame
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(12, 133);
+            this.button4.Location = new System.Drawing.Point(12, 162);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(159, 23);
             this.button4.TabIndex = 2;
@@ -101,7 +107,7 @@ namespace ClickerGame
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(12, 162);
+            this.button5.Location = new System.Drawing.Point(12, 191);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(159, 23);
             this.button5.TabIndex = 2;
@@ -112,7 +118,7 @@ namespace ClickerGame
             // lbl_one
             // 
             this.lbl_one.AutoSize = true;
-            this.lbl_one.Location = new System.Drawing.Point(177, 80);
+            this.lbl_one.Location = new System.Drawing.Point(177, 109);
             this.lbl_one.Name = "lbl_one";
             this.lbl_one.Size = new System.Drawing.Size(18, 13);
             this.lbl_one.TabIndex = 3;
@@ -121,7 +127,7 @@ namespace ClickerGame
             // lbl_two
             // 
             this.lbl_two.AutoSize = true;
-            this.lbl_two.Location = new System.Drawing.Point(177, 109);
+            this.lbl_two.Location = new System.Drawing.Point(177, 138);
             this.lbl_two.Name = "lbl_two";
             this.lbl_two.Size = new System.Drawing.Size(18, 13);
             this.lbl_two.TabIndex = 3;
@@ -130,7 +136,7 @@ namespace ClickerGame
             // lbl_three
             // 
             this.lbl_three.AutoSize = true;
-            this.lbl_three.Location = new System.Drawing.Point(177, 138);
+            this.lbl_three.Location = new System.Drawing.Point(177, 167);
             this.lbl_three.Name = "lbl_three";
             this.lbl_three.Size = new System.Drawing.Size(18, 13);
             this.lbl_three.TabIndex = 3;
@@ -139,7 +145,7 @@ namespace ClickerGame
             // lbl_four
             // 
             this.lbl_four.AutoSize = true;
-            this.lbl_four.Location = new System.Drawing.Point(177, 167);
+            this.lbl_four.Location = new System.Drawing.Point(177, 196);
             this.lbl_four.Name = "lbl_four";
             this.lbl_four.Size = new System.Drawing.Size(18, 13);
             this.lbl_four.TabIndex = 3;
@@ -147,9 +153,9 @@ namespace ClickerGame
             // 
             // btn_clickUpgrade
             // 
-            this.btn_clickUpgrade.Location = new System.Drawing.Point(151, 409);
+            this.btn_clickUpgrade.Location = new System.Drawing.Point(12, 56);
             this.btn_clickUpgrade.Name = "btn_clickUpgrade";
-            this.btn_clickUpgrade.Size = new System.Drawing.Size(151, 29);
+            this.btn_clickUpgrade.Size = new System.Drawing.Size(159, 29);
             this.btn_clickUpgrade.TabIndex = 4;
             this.btn_clickUpgrade.Text = "Upgrade click $10";
             this.btn_clickUpgrade.UseVisualStyleBackColor = true;
@@ -158,7 +164,7 @@ namespace ClickerGame
             // lbl_clickMultiplyer
             // 
             this.lbl_clickMultiplyer.AutoSize = true;
-            this.lbl_clickMultiplyer.Location = new System.Drawing.Point(205, 393);
+            this.lbl_clickMultiplyer.Location = new System.Drawing.Point(66, 40);
             this.lbl_clickMultiplyer.Name = "lbl_clickMultiplyer";
             this.lbl_clickMultiplyer.Size = new System.Drawing.Size(53, 13);
             this.lbl_clickMultiplyer.TabIndex = 5;
@@ -168,11 +174,12 @@ namespace ClickerGame
             // 
             this.lbl_perSec.AutoSize = true;
             this.lbl_perSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_perSec.Location = new System.Drawing.Point(365, 296);
+            this.lbl_perSec.Location = new System.Drawing.Point(267, 413);
             this.lbl_perSec.Name = "lbl_perSec";
             this.lbl_perSec.Size = new System.Drawing.Size(61, 25);
             this.lbl_perSec.TabIndex = 6;
             this.lbl_perSec.Text = "$10/s";
+            this.lbl_perSec.Click += new System.EventHandler(this.lbl_perSec_Click);
             // 
             // Form1
             // 
