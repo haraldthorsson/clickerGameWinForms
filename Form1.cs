@@ -22,7 +22,7 @@ namespace ClickerGame
 
         float lastTickMoney = 0;
 
-        int upgradeOne, upgradeTwo, upgradeThree , upgradeFour;
+        int upg1, upg2, upg3 , upg4;
 
         public Form1()
         {
@@ -39,8 +39,8 @@ namespace ClickerGame
             if(money >= 10)
             {
                 money -= 10;
-                upgradeOne++;
-                lbl_one.Text = upgradeOne.ToString() + "x";
+                upg1++;
+                lbl_one.Text = upg1.ToString() + "x";
             }
         }
 
@@ -49,8 +49,8 @@ namespace ClickerGame
             if (money >= 100)
             {
                 money -= 100;
-                upgradeTwo++;
-                lbl_two.Text = upgradeTwo.ToString() + "x";
+                upg2++;
+                lbl_two.Text = upg2.ToString() + "x";
             }
         }
 
@@ -59,8 +59,8 @@ namespace ClickerGame
             if (money >= 500)
             {
                 money -= 500;
-                upgradeThree++;
-                lbl_three.Text = upgradeThree.ToString() + "x";
+                upg3++;
+                lbl_three.Text = upg3.ToString() + "x";
             }
         }
 
@@ -69,8 +69,8 @@ namespace ClickerGame
             if (money >= 2000)
             {
                 money -= 2000;
-                upgradeFour++;
-                lbl_four.Text = upgradeFour.ToString() + "x";
+                upg4++;
+                lbl_four.Text = upg4.ToString() + "x";
             }
         }
 
@@ -109,13 +109,13 @@ namespace ClickerGame
 
             
 
-            money += 0.1f * deltaTime * upgradeOne;
+            money += 0.1f * deltaTime * upg1;
 
-            money += 1 * deltaTime * upgradeTwo;
+            money += 1 * deltaTime * upg2;
 
-            money += 5 * deltaTime * upgradeThree;
+            money += 5 * deltaTime * upg3;
 
-            money += 25 * deltaTime * upgradeFour;
+            money += 25 * deltaTime * upg4;
 
 
             lbl_money.Text = "$" + money.ToString("F2");

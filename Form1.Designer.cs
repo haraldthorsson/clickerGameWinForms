@@ -174,7 +174,7 @@ namespace ClickerGame
             // 
             this.lbl_perSec.AutoSize = true;
             this.lbl_perSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_perSec.Location = new System.Drawing.Point(267, 413);
+            this.lbl_perSec.Location = new System.Drawing.Point(479, 413);
             this.lbl_perSec.Name = "lbl_perSec";
             this.lbl_perSec.Size = new System.Drawing.Size(61, 25);
             this.lbl_perSec.TabIndex = 6;
