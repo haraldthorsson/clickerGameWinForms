@@ -1,0 +1,10 @@
+C:\Users\burko\source\repos\ClickerGame\bin\Debug\ClickerGame.exe.config
+C:\Users\burko\source\repos\ClickerGame\bin\Debug\ClickerGame.exe
+C:\Users\burko\source\repos\ClickerGame\bin\Debug\ClickerGame.pdb
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\Car City boom Clicker Game.csproj.AssemblyReference.cache
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\ClickerGame.Form1.resources
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\ClickerGame.Properties.Resources.resources
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\Car City boom Clicker Game.csproj.GenerateResource.cache
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\Car City boom Clicker Game.csproj.CoreCompileInputs.cache
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\ClickerGame.exe
+C:\Users\burko\source\repos\ClickerGame\obj\Debug\ClickerGame.pdb
