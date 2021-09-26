@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,20 +11,19 @@ using System.Windows.Forms;
 
 namespace ClickerGame
 {
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
-    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
+    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR                                       
+    //       ______ ____  _____  _  __             
+    //      |  ____/ __ \|  __ \| |/ /
+    //      | |__ | |  | | |__) | ' / 
+    //      |  __|| |  | |  _  /|  <  
+    //      | |   | |__| | | \ \| . \ 
+    //      |_|    \____/|_|  \_\_|\_\
+    //
+    // GAFFLAR GAFFLAR GAFFLAR GAFFLAR GAFFLAR
 
+    //BOGLIN
 
+    
     public partial class Form1 : Form
     {
 
